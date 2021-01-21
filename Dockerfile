@@ -12,5 +12,7 @@ COPY . .
 ENV NODE_ENV production
 
 RUN yarn build
+RUN rm /bin/sh && ln -s /bin/bash /bin/sh
+
 
 CMD ["yarn", "start"]
