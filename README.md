@@ -2,12 +2,12 @@
   <img src="https://user-images.githubusercontent.com/6391763/90599044-ca070300-e211-11ea-8b8a-89354dd30bd5.png" alt="Logo"/>
 </p>
 
-Ready to go blog application based on strapi Headless CMS. It's create to be easy deployed on Heroku servers. 
+Ready to go blog application based on strapi Headless CMS. It was created to be easy deployed on Heroku servers. 
 
 This application consists of the following two parts:
 
-1. [**frontend**](https://github.com/vlbaluk/strapi-blog-frontend): Next.js Frontend application
-2. [**backend**](https://github.com/vlbaluk/strapi-blog-backend): Dockerized Strapi application
+1. [**frontend**](https://github.com/vlbaluk/strapi-blog-frontend): Next.js Frontend application [**frontend live preview**](https://strapi-blog-frontend-2021.herokuapp.com/)
+2. [**backend**](https://github.com/vlbaluk/strapi-blog-backend): Dockerized Strapi application [**frontend live preview**](https://strapi-blog-backend-2021.herokuapp.com/)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
