@@ -58,7 +58,30 @@ This application is the primary user-facing application. Once it’s up and runn
 
 [Strapi](https://strapi.io/) is the leading open-source headless CMS. It’s 100% Javascript, fully customizable and developer-first.
 
-## Installation
+## Installation backend
+
+
+### 1. **Go inside the directory of the backend package on another terminal window**
+
+```sh
+cd backend
+```
+### 2.  **Install necessary dependencies for the frontend application**
+
+
+```sh
+cd backend && yarn install
+```
+### 3. **Create a .env file and copy the contents from .env.example (present in frontend directory)**
+```sh
+source .env
+```
+### 4. **Start backend**
+```sh
+yarn dev
+```
+
+## Installation frontend
 
 ### 1. **Clone the application**
 
@@ -90,17 +113,7 @@ yarn dev
 
 The above command will start the frontend application on [http://localhost:3000/](http://localhost:3000).
 
-### 6. **Go inside the directory of the backend package on another terminal window**
 
-```sh
-cd backend
-```
-
-### 7. **Start docker-compose**
-
-```sh
-docker-compose up
-```
 
 We need to start Docker and then run the above command which will change the current directory to the backend package’s directory and then start the backend package. If everything goes well, it’ll be up and running on [http://localhost:1337/graphql](http://localhost:1337/graphql).
 
@@ -130,7 +143,6 @@ d. Click on the "Done" button and now we can log into our Next.js application us
 
 Click on the button below to deploy the frontend application on Vercel. You'll need to [sign up for a free Vercel account](https://vercel.com/signup/).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fghoshnirmalya%2Fnextjs-strapi-boilerplate%2Ftree%2Fmaster%2Ffrontend&env=NEXT_PUBLIC_API_URL,NEXT_PUBLIC_DATABASE_URL,NEXTAUTH_URL,GOOGLE_CLIENT_ID,GOOGLE_CLIENT_SECRET&project-name=nextjs-strapi-boilerplate&repo-name=nextjs-strapi-boilerplate)
 [![Deploy with Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/vlbaluk/strapi-blog-frontend/tree/master)
 
 ### Backend application
