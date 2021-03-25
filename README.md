@@ -145,9 +145,31 @@ Click on the button below to deploy the frontend application on Vercel. You'll n
 
 [![Deploy with Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/vlbaluk/strapi-blog-frontend/tree/master)
 
+Heroku enviroment variables for frontend application:
+```
+NEXT_PUBLIC_STRAPI_API_URL ##path to API
+S3_PATH ##path to s3 media files
+```
 ### Backend application
 
-We're still working on it.
+
+[![Deploy with Heroku](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy/?template=https://github.com/vlbaluk/strapi-blog-backend/tree/master)
+
+Heroku enviroment variables for backend application:
+```
+AWS_ACCESS_KEY_ID ## amazon s3 creds
+AWS_ACCESS_SECRET
+AWS_BUCKET_NAME
+AWS_S3_REGION
+DATABASE_HOST ##database creds
+DATABASE_NAME
+DATABASE_PASSWORD
+DATABASE_PORT
+DATABASE_SSL
+DATABASE_URL
+DATABASE_USERNAME
+NODE_TLS_REJECT_UNAUTHORIZED ##enable SSL
+```
 
 ## Other interesting repositories
 
